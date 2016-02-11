@@ -5,7 +5,8 @@ public class RecushionRunner
 
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
+		RecursionController myController = new RecursionController();
+		myController.start();
 
 	}
 
