@@ -21,6 +21,7 @@ public class RecursionTool
 		}
 		
 	}
+	
 		
 		public Double getFactorialNumber(Double position)
 		{
