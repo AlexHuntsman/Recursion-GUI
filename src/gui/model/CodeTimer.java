@@ -14,4 +14,14 @@ public class CodeTimer
 	{
 		this.executionTime = System.nanoTime();
 	}
+	
+	public void stopTimer()
+	{
+		this.executionTime = System.nanoTime() - executionTime;
+	}
+	
+	public void resetTimer()
+	{
+		this.executionTime = 0;
+	}
 }
